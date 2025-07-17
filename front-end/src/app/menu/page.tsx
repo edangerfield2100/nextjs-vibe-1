@@ -144,7 +144,7 @@ export default function MenuPage() {
             <div key={section.type} className="menu-section p-8">
               <div className="flex items-center justify-center mb-8">
                 <span className="text-5xl mr-4">{section.icon}</span>
-                <h2 className="retro-title text-4xl font-bold text-retro-brown">
+                <h2 className="retro-title text-5xl font-bold text-white bg-retro-brown px-6 py-3 rounded-xl shadow-lg border-4 border-retro-orange">
                   {section.title}
                 </h2>
                 <span className="text-5xl ml-4">{section.icon}</span>
@@ -162,7 +162,7 @@ export default function MenuPage() {
                       <h3 className="font-bold text-xl text-retro-brown leading-tight">
                         {item.name}
                       </h3>
-                      <span className="retro-title text-2xl font-bold text-retro-orange ml-4">
+                      <span className="retro-title text-2xl font-bold text-white bg-retro-orange px-3 py-1 rounded-lg ml-4 border-2 border-retro-brown min-w-fit">
                         ${item.price.toFixed(2)}
                       </span>
                     </div>

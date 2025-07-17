@@ -48,7 +48,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-shadow: 3px 3px 0px rgba(139, 69, 19, 0.3);
+  text-shadow: 1px 1px 0px rgba(139, 69, 19, 0.2);
 }
 
 .retro-card {
